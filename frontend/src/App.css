@@ -101,3 +101,111 @@ button {
   color: #000;
 }
 
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0d1117;
+  color: #e6edf3;
+}
+
+.chat-container, .login-container {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.login-box {
+  background-color: #161b22;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 300px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+input {
+  padding: 10px;
+  margin: 10px 0;
+  width: 90%;
+  border-radius: 6px;
+  border: none;
+  background-color: #21262d;
+  color: #e6edf3;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  background-color: #238636;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #2ea043;
+}
+
+.logout-btn {
+  background-color: #da3633;
+}
+
+.room-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+  align-items: center;
+}
+
+.messages {
+  height: 400px;
+  overflow-y: auto;
+  margin: 1rem auto;
+  width: 80%;
+  background-color: #161b22;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.message {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  text-align: left;
+  max-width: 60%;
+}
+
+.message.self {
+  background-color: #238636;
+  color: white;
+  margin-left: auto;
+}
+
+.message.other {
+  background-color: #30363d;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.message {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #2c2f33;
+}
+
+.message.self {
+  background-color: #1e2f1e;
+  align-self: flex-end;
+}
+
+.message.other {
+  background-color: #2f1e1e;
+  align-self: flex-start;
+}
+
